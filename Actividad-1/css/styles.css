@@ -1,0 +1,65 @@
+/*estilos del body*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Altura mínima del viewport */
+}
+
+/*estilos del titulo principal*/
+
+.titulo-principal {
+  text-align: center;
+  background-color: orange;
+  font-size: 50px;
+}
+
+/*estilos de la lista no ordenada*/
+
+.menu-principal ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: orange;
+}
+
+/*estilos de la lista*/
+
+.menu-principal li {
+  display: inline;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+/*Estilos del main*/
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.main h2 {
+  font-size: 20px;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.main img {
+  align-self: flex-end;
+  width: 50%;
+}
+/*estilos del footer*/
+
+.footer-style {
+  background-color: orange;
+  padding: 20px;
+}
+
+.footer-style h2 {
+  font-size: 20px;
+  text-align: center;
+}
